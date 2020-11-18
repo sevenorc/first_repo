@@ -1,0 +1,102 @@
+@font-face {
+    font-family: Roboto;
+    src: url(/fonts/Roboto-Regular.ttf) 
+}
+
+body {
+    font-family:Roboto;
+    font-size:20px;
+    line-height:1.4em;
+    text-align:center;
+    margin:0;
+}
+
+.navigation ul{
+    margin:0;
+    padding:20px;
+    list-style:none;
+    background-color: #9ED1FF;
+    font-size:24px;
+    font-weight:300;
+    text-transform: uppercase;
+}
+
+.navigation li{
+    display:inline;
+    margin-left:80px;
+}
+
+.navigation a{
+    text-decoration:none;
+    color:#232323;
+}
+
+a:hover{
+    color:#367CBB;
+}
+
+h1{
+    color:#3A3A3A;
+    margin:80px 0px 40px 0px;
+}
+
+.Standart_paragraph{
+    width:60%;
+    margin:auto;
+}
+
+img {
+    width:400px;
+    margin:20px 10px;
+}
+
+table {
+    margin:auto;
+}
+
+.my-form {
+    padding:20px;
+}
+
+.my-form .form-group {
+    padding-bottom:5px;
+}
+
+.my-form label{
+    display:block;
+}
+
+.my-form input[type="text"], .my-form input[type="email"] {
+    padding:8px;
+    width:30%;
+}
+
+.my-form textarea {
+    padding:8px;
+    width:50%;
+}
+
+.button {
+    background-color: #333333;
+    color:white;
+    padding:10px 15px;
+    font-size:18px;
+    border:none;
+}
+
+.button:hover {
+    background-color:#367CBB;
+}
+
+footer {
+    background-color:#9ED1FF;
+    color:black;
+    padding:5px 0px 10px 0px;
+    font-weight: 700;
+    font-size:16px;
+}
+
+footer a{
+    color:black;
+    text-decoration: none;
+}
